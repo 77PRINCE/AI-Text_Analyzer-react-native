@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "AI-Text_Analyzer",
+    "slug": "AI-Text_Analyzer-react-native",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/modern app logo for .png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "extra": {
+      "OPENAI_API_KEY": "${OPENAI_API_KEY}"
+    },
+    "splash": {
+      "image": "assets/modern app logo for .png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "assets/modern app logo for .png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "assets/modern app logo for .png"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
